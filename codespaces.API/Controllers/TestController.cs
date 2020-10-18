@@ -25,7 +25,7 @@ namespace codespaces.API.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[]{"a", "b", "c"};
+            return new string[]{"Test", "GitHub", "Codespaces"};
         }
     }
 }
